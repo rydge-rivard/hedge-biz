@@ -8,7 +8,6 @@
 }
 
 .logo,
-.headshot,
 .center-flex {
   display: flex;
   justify-content: center;
@@ -19,26 +18,6 @@
   width: 60%;
   border-radius: 12px;
   padding: 20px;
-}
-
-.headshot img {
-  width: 50%;
-  border-radius: 12px;
-}
-
-.headshot picture {
-  display: flex;
-  justify-content: center;
-}
-
-@media (min-width: 850px) {
-  .logo img {
-    width: 60%;
-  }
-  .headshot img {
-    width: 30%;
-    max-width: 1400px;
-  }
 }
 
 .top-s {
@@ -84,6 +63,10 @@
   background-image: linear-gradient(to top, white 50%, rgba(0, 0, 0, 0) 20%);
 }
 
+.contact-img {
+  display: none;
+}
+
 .txt-emphasis {
   color: #145f37;
   font-size: 24px;
@@ -108,9 +91,18 @@ h3 {
 }
 
 .form-container {
-  max-width: 400px;
   padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  gap: 60px;
 }
+
+.form-container form {
+  width: 400px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -139,7 +131,6 @@ h3 {
   background-color: #187141;
 }
 
-.about-me,
 .projects,
 footer {
   padding: 0px 30px 20px;
@@ -155,21 +146,8 @@ footer {
   justify-content: center;
 }
 
-.icon {
-  width: 50px;
-}
-
-.icon-wrapper {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 12px 24px 0 24px;
-}
-
 .projects h3,
-footer h4,
-.about-me h2 {
+footer h4 {
   font-size: 32px;
   font-weight: 400;
   letter-spacing: -1px;
@@ -229,27 +207,17 @@ footer * {
   color: #f6f3ec;
 }
 
-footer a {
-  text-decoration: none;
-}
-
 footer p {
   text-align: center;
 }
 
-.footer-icon {
-  width: 35px;
+.proj-title-wrapper h4 {
+  font-weight: 600;
 }
 
-.line {
-  height: 1px;
-  width: 80%;
-  background-color: black;
-}
-
-.line-wrapper {
-  display: flex;
-  justify-content: center;
+.c {
+  font-size: 14px;
+  color: #d0cec8;
 }
 
 @media (prefers-reduced-motion) {
@@ -258,6 +226,19 @@ footer p {
   }
 }
 
-.proj-title-wrapper h4 {
-  font-weight: 600;
+@media (min-width: 850px) {
+  .logo img {
+    width: 60%;
+  }
+  .hero img {
+    width: 50%;
+  }
+  .contact-img {
+    display: block;
+    max-width: 400px;
+    border-radius: 12px;
+  }
+  .services {
+    padding: 60px 60px 20px;
+  }
 }
