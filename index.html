@@ -20,7 +20,7 @@
     </div>
     <main>
       <section class="services">
-        <h3>Services</h3>
+        <h3>SERVICES</h3>
         <div class="headline">
           Top Hedge is a one-stop shop for all your hedge, shrub, and gardening
           needs.
@@ -32,10 +32,14 @@
       </section>
       <section class="projects">
         <div class="card">
-          <img src="./img/shop.png" alt="" class="proj-img" />
+          <img
+            src="./img/sqr-hedge.jpeg"
+            alt="Trimmed hedge row"
+            class="proj-img"
+          />
           <div class="lower-card">
             <div class="proj-title-wrapper">
-              <h4>Shopping Cart App</h4>
+              <h4>Hedge Trimming</h4>
               <a href="https://github.com/rydge-rivard/shopping-cart"
                 ><img src="./img/github.svg" alt="" class="card-icon"
               /></a>
@@ -44,7 +48,8 @@
               /></a>
             </div>
             <p>
-              A shop app that uses the React Router with State and Effect hooks.
+              Professional hedge trimming services to maintain beautifully
+              shaped, healthy, and well-manicured hedges for your landscape.
             </p>
           </div>
         </div>
@@ -52,7 +57,7 @@
           <img src="./img/mem-game.png" alt="" class="proj-img" />
           <div class="lower-card">
             <div class="proj-title-wrapper">
-              <h4>Memory Game</h4>
+              <h4>Pressure Washing</h4>
               <a href="https://github.com/rydge-rivard/memory-game"
                 ><img src="./img/github.svg" alt="" class="card-icon"
               /></a>
@@ -60,14 +65,17 @@
                 ><img src="./img/open-new.svg" alt="" class="card-icon"
               /></a>
             </div>
-            <p>Created using Vite, React, and a duck image API.</p>
+            <p>
+              Expert deck cleaning and pressure washing services to restore the
+              beauty and integrity of your outdoor living spaces.
+            </p>
           </div>
         </div>
         <div class="card">
           <img src="./img/cv-builder.png" alt="" class="proj-img" />
           <div class="lower-card">
             <div class="proj-title-wrapper">
-              <h4>React Resume Builder</h4>
+              <h4>Gutter Cleaning</h4>
               <a href="https://github.com/rydge-rivard/react-cv-app"
                 ><img src="./img/github.svg" alt="" class="card-icon"
               /></a>
@@ -76,18 +84,17 @@
                 ><img src="./img/open-new.svg" alt="" class="card-icon"
               /></a>
             </div>
-            <p>A React app with reusable components to build a resume.</p>
+            <p>
+              Reliable gutter cleaning services to ensure your home's drainage
+              system remains clear and functioning properly.
+            </p>
           </div>
         </div>
         <div class="card">
-          <img
-            src="./img/battleship.png"
-            alt="Admin dashboard interface."
-            class="proj-img"
-          />
+          <img src="./img/battleship.png" alt="" class="proj-img" />
           <div class="lower-card">
             <div class="proj-title-wrapper">
-              <h4>Battleship</h4>
+              <h4>Mulching</h4>
               <a href="https://github.com/rydge-rivard/battleship"
                 ><img src="./img/github.svg" alt="" class="card-icon"
               /></a>
@@ -95,46 +102,58 @@
                 ><img src="./img/open-new.svg" alt="" class="card-icon"
               /></a>
             </div>
-            <p>A battleship game delivered with a full suite of Jest tests.</p>
+            <p>
+              Professional mulching services to enhance soil health, retain
+              moisture, and provide a polished look to your gardens.
+            </p>
           </div>
         </div>
       </section>
-    </main>
-
-    <!-- <section class="about-me">
-        <h2>About</h2>
+      <section class="services">
+        <h3>GET STARTED</h3>
+        <div class="headline">Are you ready to transform your property?</div>
         <p>
-          My name is Rydge Rivard and I am a problem solver. Puzzles keep me
-          engaged and that is why I chose to pursue web development as a career.
+          Contact us today to request a consultation. One of our experts will
+          visit your property, discuss your needs, and develop a customized
+          proposal for your review.
         </p>
-        <p>
-          I have experience building with Git, NPM, HTML, CSS, JS and the React
-          framework. I like learning new technologies and am currently working
-          on Node.js.
-        </p>
-        <div class="headshot">
-          <picture>
-            <source srcset="./img/rydge-small.jpg" media="(min-width: 850px)" />
-            <img src="./img/hero.jpeg" alt="Rydge Rivard" />
-          </picture>
+        <div class="form-container">
+          <form action="/submit_form" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (optional):</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="message">How can we help you?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
         </div>
-      </section> -->
-    <!-- </div> -->
-    <!-- <main>
-      <div class="line-wrapper">
-        <div class="line"></div>
+      </section>
+    </main>
+    <footer>
+      <h4>(226) 567-46xx</h4>
+      <p>Norfolk County, ON</p>
+      <div>
+        <p><strong>MON-FRI</strong> 8:00-5:00</p>
+        <p><strong>SAT-SUN</strong> 8:00-1:00</p>
       </div>
-    </main> -->
-    <!-- <footer>
-      <h4>Contact</h4>
-      <p>
-        If you have any questions or would like to work together please let me
-        know.
-      </p>
-      <a href="mailto:fake-email@gmail.com">rydgerivard@gmail.com</a>
-      <a href="https://www.linkedin.com/in/rydge/"
-        ><img src="img/linkedin.svg" class="footer-icon" alt=""
-      /></a>
-    </footer> -->
+    </footer>
   </body>
 </html>
