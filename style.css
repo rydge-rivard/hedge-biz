@@ -205,6 +205,10 @@ footer h4 {
   border-radius: 12px 12px 0px 0px;
 }
 
+.accent {
+  background-color: #f6f3ec;
+}
+
 footer {
   background-color: #145f37;
   padding: 48px 24px;
