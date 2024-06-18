@@ -339,6 +339,14 @@ footer h4 {
   font-size: 16px;
 }
 
+.thick-border {
+  padding: 40px 30px 80px;
+}
+
+.slim-border {
+  padding: 40px 30px 20px;
+}
+
 footer {
   background-color: #145f37;
   padding: 48px 24px;
@@ -387,6 +395,14 @@ footer p {
     padding: 60px 60px 20px;
   }
 
+  .thick-border {
+    padding: 40px 30px 80px;
+  }
+
+  .slim-border {
+    padding: 40px 30px 20px;
+  }
+
   .about {
     flex-direction: row;
     flex-wrap: wrap;
@@ -404,5 +420,10 @@ footer p {
   .quote-box p,
   .quote-box h4 {
     text-align: center;
+  }
+
+  .next,
+  .prev {
+    font-size: 48px;
   }
 }
