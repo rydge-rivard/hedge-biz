@@ -273,7 +273,6 @@ footer h4 {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -321,6 +320,23 @@ footer h4 {
   to {
     opacity: 1;
   }
+}
+
+.quote-box {
+  background-color: #145f37;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.quote-box p,
+.quote-box h4 {
+  color: #f6f3ec;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.quote-box h4 {
+  font-size: 16px;
 }
 
 footer {
@@ -383,5 +399,10 @@ footer p {
 
   .about div.grow {
     flex: 1;
+  }
+
+  .quote-box p,
+  .quote-box h4 {
+    text-align: center;
   }
 }
