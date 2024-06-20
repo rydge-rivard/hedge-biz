@@ -13,20 +13,30 @@
     <script src="main.js" defer></script>
   </head>
   <body>
-    <header class="top-s">
+    <div class="top-s">
       <div class="logo">
         <img src="./img/Top-Garden-500-250.png" alt="Rydge Rivard" />
       </div>
-    </header>
+      <header>
+        <nav class="navbar">
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <div class="hero-text">Norfolk's Garden and Landscaping Experts</div>
     <div class="hero center-flex">
       <img src="./img/hero.jpeg" alt="Trimmed hedge with Rydge" />
     </div>
     <div class="cta-wrapper">
-      <a href="#get-in-touch"><button>Get in touch!</button></a>
+      <a href="#Contact"><button>Get in touch!</button></a>
     </div>
     <main>
-      <section class="heading-container">
+      <section id="Services" class="heading-container">
         <h3>SERVICES</h3>
         <div class="headline">
           Top Garden is a one-stop shop for all your landscaping needs.
@@ -91,7 +101,7 @@
           </div>
         </div>
       </section>
-      <section class="about accent">
+      <section id="About" class="about accent">
         <h3>ABOUT US</h3>
         <img class="about-img" src="./img/rydge-crop.jpg" alt="" />
         <div class="grow">
@@ -151,8 +161,8 @@
           <h4>Happy Customer</h4>
         </div>
       </section>
-      <section class="heading-container accent slim-border">
-        <h3 id="get-in-touch">GET STARTED</h3>
+      <section id="Contact" class="heading-container accent slim-border">
+        <h3>GET STARTED</h3>
         <div class="headline">Are you ready to transform your property?</div>
         <p>
           Contact us today to request a consultation. One of our experts will
