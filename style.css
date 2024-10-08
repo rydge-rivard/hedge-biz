@@ -14,7 +14,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #327d55;
+  color: #000000;
   font-size: 16px;
   padding: 6px 12px;
   border-radius: 12px;
@@ -22,7 +22,7 @@ a {
 }
 
 .navbar a:hover {
-  background-color: #187141;
+  background-color: #375081;
   color: #f6f3ec;
 }
 
@@ -87,7 +87,7 @@ header {
   text-align: center;
   padding: 40px 20px 0px;
   background-color: #f6f3ec;
-  color: #327d55;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -96,7 +96,7 @@ header {
   text-align: center;
   font-size: 18px;
   padding: 10px;
-  color: #327d55;
+  color: #000000;
   font-family: "Roboto";
 }
 
@@ -121,7 +121,7 @@ header {
 }
 
 .txt-emphasis {
-  color: #327d55;
+  color: #375081;
   font-size: 24px;
   font-weight: 500;
 }
@@ -178,7 +178,7 @@ h3 {
 .form-group input[type="submit"],
 .cta-wrapper button {
   width: auto;
-  background-color: #327d55;
+  background-color: #375081;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -187,7 +187,7 @@ h3 {
 }
 .form-group input[type="submit"]:hover,
 .cta-wrapper button:hover {
-  background-color: #187141;
+  background-color: #274480;
 }
 
 .projects,
@@ -370,7 +370,7 @@ footer h4 {
 }
 
 .quote-box {
-  background-color: #327d55;
+  background-color: #375081;
   border-radius: 12px;
   padding: 20px;
 }
@@ -395,7 +395,7 @@ footer h4 {
 }
 
 footer {
-  background-color: #327d55;
+  background-color: #375081;
   padding: 48px 24px;
   color: #f6f3ec;
 }
