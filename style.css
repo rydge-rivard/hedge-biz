@@ -22,14 +22,14 @@ a {
 }
 
 .navbar a:hover {
-  background-color: #375081;
-  color: #f6f3ec;
+  background-color: #438f67;
+  color: #ede0cb;
 }
 
 header {
   position: relative;
   padding: 0px 10px;
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
 }
 
 .navbar {
@@ -55,13 +55,13 @@ header {
 }
 
 .logo img {
-  width: 75%;
+  width: 100%;
   border-radius: 12px;
   padding: 20px 20px 0 20px;
 }
 
 .top-s {
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,13 +86,13 @@ header {
   font-size: 48px;
   text-align: center;
   padding: 40px 20px 0px;
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
   color: #000000;
   font-weight: 500;
 }
 
 .hero-sub {
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
   text-align: center;
   font-size: 18px;
   padding: 10px;
@@ -107,7 +107,7 @@ header {
 }
 
 .hero {
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
   background-image: linear-gradient(to top, white 50%, rgba(0, 0, 0, 0) 20%);
 }
 
@@ -121,7 +121,7 @@ header {
 }
 
 .txt-emphasis {
-  color: #375081;
+  color: #438f67;
   font-size: 24px;
   font-weight: 500;
 }
@@ -178,7 +178,7 @@ h3 {
 .form-group input[type="submit"],
 .cta-wrapper button {
   width: auto;
-  background-color: #375081;
+  background-color: #438f67;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -187,7 +187,7 @@ h3 {
 }
 .form-group input[type="submit"]:hover,
 .cta-wrapper button:hover {
-  background-color: #274480;
+  background-color: #2d6045;
 }
 
 .projects,
@@ -240,7 +240,7 @@ footer h4 {
 .lower-card {
   padding: 24px;
   box-shadow: 5px 5px 10px -10px;
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
   border-radius: 0 0 12px 12px;
   min-height: 150.5px;
 }
@@ -257,7 +257,7 @@ footer h4 {
 }
 
 .accent {
-  background-color: #f6f3ec;
+  background-color: #ede0cb;
 }
 
 .about-img {
@@ -370,14 +370,14 @@ footer h4 {
 }
 
 .quote-box {
-  background-color: #375081;
+  background-color: #438f67;
   border-radius: 12px;
   padding: 20px;
 }
 
 .quote-box p,
 .quote-box h4 {
-  color: #f6f3ec;
+  color: #ede0cb;
   margin: 20px;
   font-size: 18px;
 }
@@ -395,13 +395,13 @@ footer h4 {
 }
 
 footer {
-  background-color: #375081;
+  background-color: #438f67;
   padding: 48px 24px;
-  color: #f6f3ec;
+  color: #ede0cb;
 }
 
 footer * {
-  color: #f6f3ec;
+  color: #ede0cb;
 }
 
 footer p {
