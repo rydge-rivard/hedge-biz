@@ -237,8 +237,20 @@
           property to discuss your goals and provide a quote for your review.
         </p>
         <div class="form-container">
-          <!-- FORM NOT CONNECTED -->
-          <form action="/submit_form" method="post">
+          <form
+            action="https://formsubmit.co/7c3c76423df8a7f3f73ecbddc1dd7b4e"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5502/index.html#Contact"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- The above two inputs are settings within FormSubmit. -->
+            <!-- The first redirects the user on submit to our Contact page. -->
+            <!-- The second disables reCAPTCHA -->
+            <!-- Form submit handles the server side code and sends the email to our inbox. -->
             <div class="form-group">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" required />
@@ -248,8 +260,8 @@
               <input type="email" id="email" name="email" required />
             </div>
             <div class="form-group">
-              <label for="phone">Phone (optional):</label>
-              <input type="tel" id="phone" name="phone" />
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
             </div>
             <div class="form-group">
               <label for="message">How can we help you?</label>
