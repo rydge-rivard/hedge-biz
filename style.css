@@ -85,10 +85,13 @@ header {
 .hero-text {
   font-size: 48px;
   text-align: center;
-  padding: 40px 20px 0px;
   background-color: #517b65;
   color: #ffffff;
   font-weight: 500;
+}
+
+.pad-40-20-0 {
+  padding: 40px 20px 0px;
 }
 
 .hero-sub {
@@ -412,15 +415,33 @@ footer p {
   font-weight: 400;
 }
 
-.c {
-  font-size: 14px;
-  color: #d0cec8;
-}
-
 .line-space {
   line-height: 1.5;
   font-weight: 300;
   font-family: "Roboto";
+}
+
+.icon-size {
+  width: 60px;
+  padding: 24px 0px 14px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flex-grow-four {
+  flex-grow: 4;
+  background-color: #517b65;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow-one {
+  flex-grow: 1;
 }
 
 @media (prefers-reduced-motion) {
