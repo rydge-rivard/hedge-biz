@@ -55,7 +55,7 @@ header {
 }
 
 .logo img {
-  width: 100%;
+  width: 67%;
   border-radius: 12px;
   padding: 20px 20px 0 20px;
 }
@@ -451,10 +451,6 @@ footer p {
 }
 
 @media (min-width: 850px) {
-  .logo img {
-    width: 67%;
-  }
-
   .hero img {
     width: 50%;
   }
