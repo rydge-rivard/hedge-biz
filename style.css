@@ -8,6 +8,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
 }
@@ -107,6 +111,7 @@ header {
   width: 90%;
   border-radius: 12px;
   margin: 60px 20px 20px;
+  min-height: 260px;
 }
 
 .hero {
@@ -238,6 +243,7 @@ footer h4 {
 
 .proj-img {
   width: 100%;
+  min-height: 298px;
 }
 
 .lower-card {
@@ -266,6 +272,7 @@ footer h4 {
 .about-img {
   display: block;
   max-width: 400px;
+  min-height: 298px;
   border-radius: 12px;
 }
 
@@ -277,6 +284,7 @@ footer h4 {
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
+  min-height: 298px;
   position: relative;
   margin: auto;
   padding: 20px 0 0 0;
